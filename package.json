@@ -1,0 +1,24 @@
+{
+  "name": "expresslayer",
+  "version": "1.0.0",
+  "description": "expresslayer",
+  "main": "index.js",
+  "scripts": {
+     "start": "nodemon src/index.js --exec \"npm run lint && node\"",
+     "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EsportsInherited/expresslayer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EsportsInherited/expresslayer/issues"
+  },
+  "homepage": "https://github.com/EsportsInherited/expresslayer#readme",
+  "dependencies": {
+    "eslint": "^5.12.0"
+  }
+}
